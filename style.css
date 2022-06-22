@@ -12,6 +12,8 @@
     margin-right: auto;
 }
 
+/* header style start */
+
 header {
     padding: 20px 35px;
     background-color: hsl(0, 0%, 100%);
@@ -58,6 +60,8 @@ header nav ul li a {
     
 }
 
+/* header end */
+
 
 body {
     font-family: "Rubik", "Helvetica", sans-serif;
@@ -65,8 +69,9 @@ body {
     font-weight: 300;
     background-color: antiquewhite;
     display:block;
-
 }
+
+/*work section*/
 
 h1 {
     font-weight: bold;
@@ -76,7 +81,31 @@ h1 {
     font-weight: bold;
     font-size: 30px;
     text-decoration: none;
-
-
-
 }
+
+.section-title {
+    font-size: 36px;
+    border-bottom: 10px solid;
+    color: #000000;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 50px auto 35px auto;
+    width: 20%;
+  }
+  
+  .primary-border {
+    border-color: #ffffff;
+  }
+  
+  .secondary-border {
+    border-color: #000000;
+  }
+
+  .work p {
+    line-height: 1.7;
+    color: #000000;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+  }
