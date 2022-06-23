@@ -99,15 +99,6 @@ body {
 
 /*about me section*/
 
-h1 {
-    font-weight: bold;
-    margin: 50px 0 50px 0;
-    color: #000000;
-    line-height: 50%;
-    font-weight: bold;
-    font-size: 30px;
-    text-decoration: none;
-}
 
 .section-title {
     font-size: 36px;
@@ -116,7 +107,6 @@ h1 {
     padding-bottom: 20px;
     text-align: center;
     margin: 50px auto 35px auto;
-
   }
   
   .primary-border {
@@ -154,6 +144,9 @@ h1 {
     text-transform: uppercase;
     list-style: none;
   }
+
+  /* projects section */
+
 
 
   /* utilities */
