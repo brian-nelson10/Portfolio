@@ -8,7 +8,6 @@
         <link rel="icon" type="image/x-icon" href="images/favicon (1).ico" >
         <link rel="stylesheet" href="style.css">
         <script src="https://kit.fontawesome.com/9464b28eae.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css" integrity="sha384-eoTu3+HydHRBIjnCVwsFyCpUDZHZSFKEJD0mc3ZqSBSb6YhZzRHeiomAUWCstIWo" crossorigin="anonymous">
         
 
             <style>
@@ -83,7 +82,7 @@
 
         <div class="info">
             <div class="flex-row">
-                <h2 class="section-title secondary-border">
+                <h2 class="section-title primary-border">
                  <ul>
                     <li>Name: Brian Nelson</li>
                     <li>Age: 35</li>
@@ -96,61 +95,40 @@
 
     <!--projects section-->
 
-    <section id="projects">
-        <div class="flex-row">
-            <h1 class="section-title primary-border">
-                PROJECTS</h1>
-
-            <div class="flex">
-                <div class="col-lg-4 mt-4">
-                    <div class="card">
-                        <img class="card-img-top" src="c:\Users\bn3l1\projects\run-buddy\assets\images\hero-bg.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-
-                            <h4 class="card-title">Run Buddy Website</h4>
-
-                            <p class="card-text">Website to help direct clients to a detailed run program. </p>
-                            <div class="text-center">
-
-                                <a href="#" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <div class="card">
+  <img src="c:\Users\bn3l1\projects\run-buddy\assets\images\hero-bg.jpg" alt="runbuddy screenshot" style="width:100%">
+  <div class="card-body">
+    <h3 class="card-title">Run Buddy Website</h3>
+    <p class="card-text">Website to attract potential customers into a running lifestyle program.</p>
+    <p>
+        <a href="https://brian-nelson10.github.io/run_buddy/"><button>Link</button></a>
+    </p>
+  </div>
+</div>
 
     <!--contact section-->
 
-    <section id="contact">
-        <div class="container mt-3 contactContent">
-            <h1 class="section-title secondary-border">
+    <section id="contactme" class="contact">
+        <div class="flex-row">
+            <h1 class="section-title primary-border">
                 CONTACT ME</h1>
             </div>
 
-
-
-
-
-                <div class="col-lg-6">
+                <div class="contact-info">
                     <!-- form fields -->
                     <form>
-                        <input type="text" class="form-control form-control-lg" placeholder="Name">
-                        <input type="email" class="form-control mt-3" placeholder="Email">
-                        <input type="text" class="form-control mt-3" placeholder="Subject">
-                        <div class="mb-3 mt-3">
-                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
-                        </div>
+                        <input type="text" id="contact-name" placeholder="Name">
+                        <input type="email" id="contact-email" placeholder="Email">
+                        <input type="text" id="subject-message" placeholder="Subject">
+                        <textarea class="form" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                        
                     </form>
-                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
+                    <a href="mailto:bn3l10@gmail.com"><button>Contact Me</button></a>
                     
                 </div>
             </div>
         </div>
 
-
-            
     </section>
 
 
@@ -165,7 +143,6 @@
                 <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
                 <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
                 <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
             </div>
         </div>
     </footer>

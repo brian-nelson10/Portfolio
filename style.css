@@ -25,13 +25,8 @@ header {
 
 header a {
     text-decoration: none;
-    text-transform: uppercase;
-    color: #000000;
-    font-weight: bold;
-    font-size: 30px;
     display: block;
     justify-content: space-between;
-    list-style: none;
 }
 
 header nav {
@@ -62,6 +57,13 @@ header nav ul li a {
 
 /* header end */
 
+/* footer style start */
+
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
+/*footer end*/
 
 body {
     font-family: "Rubik", "Helvetica", sans-serif;
@@ -110,10 +112,6 @@ body {
   }
   
   .primary-border {
-    border-color: #ffffff;
-  }
-  
-  .secondary-border {
     border-color: #000000;
   }
 
@@ -147,7 +145,104 @@ body {
 
   /* projects section */
 
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5);
+    margin: auto;
+    text-align: center;
+    font-family: "Rubik", "Helvetica", sans-serif;
+  }
 
+  .card-body {
+    background-color: #ffff;
+  }
+
+  .card-title {
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .card-text {
+    color: #000000;
+    font-size: 22px;
+    font-family: "Rubik", "Helvetica", sans-serif;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  /*contact me*/
+
+  .contact {
+    background: #ffff;
+    padding: 20px;
+    margin: 50px;
+  }
+
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .contact-info > * {
+    flex: 1;
+    margin: 15px;
+  }
+  
+  .contact-info input, .contact-info textarea {
+    border: 5px solid #000000;
+    display: block;
+    padding: 7px 15px;
+    font-size: 18px;
+    color: #000000;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+  }
+  
+  .contact-info button {
+    width: 100%;
+    border: none;
+    background: #000000;
+    color: #ffff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 18px;
+  }
+
+  .contact-info button:hover {
+    opacity: 0.7;
+  }
+
+
+  /* social media icons styling */
+.social-icons {
+    font-size: 40px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #ffff;
+}
+.fab {
+    color: #000000;
+}
 
   /* utilities */
   .flex-row {
